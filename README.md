@@ -1,1 +1,9 @@
 # Expense-Tracker-Java-React-MySQL
+
+The Expense Tracker is a full-stack web application built using Java Spring Boot, React, and MySQL, designed to provide users with a simple and efficient way to record, monitor, and analyze their daily financial transactions. The primary objective of this project is to help users gain better visibility into their spending habits through clean UI components, reliable backend APIs, and structured data storage.
+
+The backend, developed with Spring Boot, exposes a set of RESTful APIs that support complete CRUD operations. The application follows a clean layered architecture consisting of Controller, Service, Repository, and Model layers. Spring Data JPA is used to map Java objects to relational database tables in MySQL, reducing boilerplate code and simplifying database operations. The backend handles essential functionalities such as adding new expenses, retrieving all expenses, updating records, deleting expenses, and filtering expenses based on a date range for basic analytics. Using MySQL ensures data persistence and scalability, making the application suitable for real-world usage.
+
+The frontend, built with React, offers a user-friendly interface where users can easily input expenses, view them in a structured table, and manage their records. Axios is used for communication between the React frontend and Spring Boot backend, ensuring smooth data updates without reloading the page. Components like ExpenseForm and ExpenseList are designed to provide clarity and modularity.
+
+Together, the frontend and backend create a seamless full-stack system that delivers efficient expense tracking and basic analytics. This project demonstrates practical skills in API development, UI design, state management, database integration, and full-stack deployment. It also showcases the ability to design scalable, maintainable, and production-ready applications using modern web technologies.
